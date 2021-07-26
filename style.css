@@ -1,30 +1,40 @@
 body {
-  background-color: rgb(27, 27, 27);
+  background-color: #1b1924;
   margin: 0;
-  display: grid;
-  place-content: center;
-  height: 100vh;
+  color: white;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   color: white;
 }
 
 .container {
   position: relative;
-  width: 60%;
-  margin: 0 auto;
-  background-color: #232323;
+  width: 40%;
+  margin: 10px;
+  background-color: #b5c1b4;
   padding: 2em;
 }
 
 h1 {
+  text-align: center;
+  color: #b5c1b4;
+}
+
+.container h1 {
   margin: 0;
+  color: #3f3232;
 }
 
 p {
-  color: gray;
+  color: #3f3232;
 }
 
 button {
-  background-color: #343434;
+  background-color: #74593d;
   margin-top: 2em;
   border: none;
   padding: 1em;
@@ -41,7 +51,7 @@ button:hover {
 }
 
 button:active {
-  background-color: orange;
+  background-color: #dcd9c6;
 }
 
 .svg {
@@ -53,4 +63,5 @@ button:active {
 }
 
 .hide {
+    display: none;
 }
