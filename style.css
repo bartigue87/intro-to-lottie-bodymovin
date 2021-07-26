@@ -6,3 +6,51 @@ body {
   height: 100vh;
   color: white;
 }
+
+.container {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #232323;
+  padding: 2em;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  color: gray;
+}
+
+button {
+  background-color: #343434;
+  margin-top: 2em;
+  border: none;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  outline: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #424242;
+}
+
+button:active {
+  background-color: orange;
+}
+
+.svg {
+  width: 200px;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  pointer-events: none;
+}
+
+.hide {
+}
